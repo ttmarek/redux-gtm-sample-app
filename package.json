@@ -1,0 +1,25 @@
+{
+  "name": "redux-gtm-sample-app",
+  "version": "0.0.1",
+  "description": "A simple app to demonstrate redux-gtm",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "webpack index.js index.bundle.js",
+    "start": "http-server ./"
+  },
+  "keywords": [
+    "redux-gtm",
+    "sample",
+    "app",
+    "google-tag-manager"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "webpack": "^1.13.3"
+  },
+  "dependencies": {
+    "redux": "^3.6.0",
+    "redux-gtm": "^0.2.0"
+  }
+}
